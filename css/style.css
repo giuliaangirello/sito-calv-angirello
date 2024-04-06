@@ -1,0 +1,147 @@
+body {
+    background-color: #fdf0c7;
+    color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    gap: 25px;   
+}
+
+.nomicop .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    font-style: oblique;
+    margin-left: 10px;
+}
+
+.prima {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    padding: 100px;
+    gap: 25px;
+}
+
+.prima .text {
+    width: 66%;
+}
+
+.prima .image {
+    margin: none;
+    size: 3000px
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header p {
+    font-weight: bold
+}
+
+header nav ul a {
+   text-decoration: none;
+   color: black;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.info {
+    display: grid;
+    max-width: 1120px;
+    margin: auto;
+    padding: 
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+}
+
+.info {
+    text-size-adjust: 100px;
+}
+
+.info h1 {
+    font-size: 25px;
+    line-height: 1.1;
+    align-items: center;
+}
+
+.info h2 {
+     margin: 10px;
+     align-items: center;
+     
+}
+
+.info p {
+    position: relative;
+    margin: none;
+
+}
+
+.colore-1 {
+    background-color: #ffb258;
+    margin: 0px;
+    max-width: 50000px;
+    margin-bottom: auto;
+    object-position: 1120px;
+}
+
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+footer p {
+    font-weight: bold;
+
+}
+
+footer nav ul a {
+   text-decoration: none;
+   color: black;
+}
+
+footer nav ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.colore-2 {
+    background-color: #ffb258;
+    margin: 0px;
+    max-width: 50000px;
+    margin-bottom: auto;
+    object-position: 1120px;
+}
+
+
+
